@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97B7D3051DE277360069FD02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B7D3041DE277360069FD02 /* AppDelegate.swift */; };
+		97B7D3071DE277360069FD02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B7D3061DE277360069FD02 /* ViewController.swift */; };
+		97B7D30A1DE277360069FD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B7D3081DE277360069FD02 /* Main.storyboard */; };
+		97B7D30D1DE277360069FD02 /* SatoriChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97B7D30B1DE277360069FD02 /* SatoriChallenge.xcdatamodeld */; };
+		97B7D30F1DE277360069FD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B7D30E1DE277360069FD02 /* Assets.xcassets */; };
+		97B7D3121DE277360069FD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B7D3101DE277360069FD02 /* LaunchScreen.storyboard */; };
+		97B7D31D1DE277360069FD02 /* SatoriChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B7D31C1DE277360069FD02 /* SatoriChallengeTests.swift */; };
+		97B7D3281DE277360069FD02 /* SatoriChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B7D3271DE277360069FD02 /* SatoriChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97B7D3191DE277360069FD02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97B7D2F91DE277360069FD02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97B7D3001DE277360069FD02;
+			remoteInfo = SatoriChallenge;
+		};
+		97B7D3241DE277360069FD02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97B7D2F91DE277360069FD02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97B7D3001DE277360069FD02;
+			remoteInfo = SatoriChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97B7D3011DE277360069FD02 /* SatoriChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatoriChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B7D3041DE277360069FD02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97B7D3061DE277360069FD02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97B7D3091DE277360069FD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97B7D30C1DE277360069FD02 /* SatoriChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SatoriChallenge.xcdatamodel; sourceTree = "<group>"; };
+		97B7D30E1DE277360069FD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97B7D3111DE277360069FD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97B7D3131DE277360069FD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97B7D3181DE277360069FD02 /* SatoriChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatoriChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B7D31C1DE277360069FD02 /* SatoriChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatoriChallengeTests.swift; sourceTree = "<group>"; };
+		97B7D31E1DE277360069FD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97B7D3231DE277360069FD02 /* SatoriChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatoriChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B7D3271DE277360069FD02 /* SatoriChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatoriChallengeUITests.swift; sourceTree = "<group>"; };
+		97B7D3291DE277360069FD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97B7D2FE1DE277360069FD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B7D3151DE277360069FD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B7D3201DE277360069FD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97B7D2F81DE277360069FD02 = {
+			isa = PBXGroup;
+			children = (
+				97B7D3031DE277360069FD02 /* SatoriChallenge */,
+				97B7D31B1DE277360069FD02 /* SatoriChallengeTests */,
+				97B7D3261DE277360069FD02 /* SatoriChallengeUITests */,
+				97B7D3021DE277360069FD02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97B7D3021DE277360069FD02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97B7D3011DE277360069FD02 /* SatoriChallenge.app */,
+				97B7D3181DE277360069FD02 /* SatoriChallengeTests.xctest */,
+				97B7D3231DE277360069FD02 /* SatoriChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97B7D3031DE277360069FD02 /* SatoriChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				97B7D3041DE277360069FD02 /* AppDelegate.swift */,
+				97B7D3061DE277360069FD02 /* ViewController.swift */,
+				97B7D3081DE277360069FD02 /* Main.storyboard */,
+				97B7D30E1DE277360069FD02 /* Assets.xcassets */,
+				97B7D3101DE277360069FD02 /* LaunchScreen.storyboard */,
+				97B7D3131DE277360069FD02 /* Info.plist */,
+				97B7D30B1DE277360069FD02 /* SatoriChallenge.xcdatamodeld */,
+			);
+			path = SatoriChallenge;
+			sourceTree = "<group>";
+		};
+		97B7D31B1DE277360069FD02 /* SatoriChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				97B7D31C1DE277360069FD02 /* SatoriChallengeTests.swift */,
+				97B7D31E1DE277360069FD02 /* Info.plist */,
+			);
+			path = SatoriChallengeTests;
+			sourceTree = "<group>";
+		};
+		97B7D3261DE277360069FD02 /* SatoriChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97B7D3271DE277360069FD02 /* SatoriChallengeUITests.swift */,
+				97B7D3291DE277360069FD02 /* Info.plist */,
+			);
+			path = SatoriChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97B7D3001DE277360069FD02 /* SatoriChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B7D32C1DE277360069FD02 /* Build configuration list for PBXNativeTarget "SatoriChallenge" */;
+			buildPhases = (
+				97B7D2FD1DE277360069FD02 /* Sources */,
+				97B7D2FE1DE277360069FD02 /* Frameworks */,
+				97B7D2FF1DE277360069FD02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SatoriChallenge;
+			productName = SatoriChallenge;
+			productReference = 97B7D3011DE277360069FD02 /* SatoriChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97B7D3171DE277360069FD02 /* SatoriChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B7D32F1DE277360069FD02 /* Build configuration list for PBXNativeTarget "SatoriChallengeTests" */;
+			buildPhases = (
+				97B7D3141DE277360069FD02 /* Sources */,
+				97B7D3151DE277360069FD02 /* Frameworks */,
+				97B7D3161DE277360069FD02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97B7D31A1DE277360069FD02 /* PBXTargetDependency */,
+			);
+			name = SatoriChallengeTests;
+			productName = SatoriChallengeTests;
+			productReference = 97B7D3181DE277360069FD02 /* SatoriChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97B7D3221DE277360069FD02 /* SatoriChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B7D3321DE277360069FD02 /* Build configuration list for PBXNativeTarget "SatoriChallengeUITests" */;
+			buildPhases = (
+				97B7D31F1DE277360069FD02 /* Sources */,
+				97B7D3201DE277360069FD02 /* Frameworks */,
+				97B7D3211DE277360069FD02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97B7D3251DE277360069FD02 /* PBXTargetDependency */,
+			);
+			name = SatoriChallengeUITests;
+			productName = SatoriChallengeUITests;
+			productReference = 97B7D3231DE277360069FD02 /* SatoriChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97B7D2F91DE277360069FD02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					97B7D3001DE277360069FD02 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8DM6D8QKC8;
+						ProvisioningStyle = Automatic;
+					};
+					97B7D3171DE277360069FD02 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8DM6D8QKC8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 97B7D3001DE277360069FD02;
+					};
+					97B7D3221DE277360069FD02 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8DM6D8QKC8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 97B7D3001DE277360069FD02;
+					};
+				};
+			};
+			buildConfigurationList = 97B7D2FC1DE277360069FD02 /* Build configuration list for PBXProject "SatoriChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97B7D2F81DE277360069FD02;
+			productRefGroup = 97B7D3021DE277360069FD02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97B7D3001DE277360069FD02 /* SatoriChallenge */,
+				97B7D3171DE277360069FD02 /* SatoriChallengeTests */,
+				97B7D3221DE277360069FD02 /* SatoriChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97B7D2FF1DE277360069FD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B7D3121DE277360069FD02 /* LaunchScreen.storyboard in Resources */,
+				97B7D30F1DE277360069FD02 /* Assets.xcassets in Resources */,
+				97B7D30A1DE277360069FD02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B7D3161DE277360069FD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B7D3211DE277360069FD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97B7D2FD1DE277360069FD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B7D3071DE277360069FD02 /* ViewController.swift in Sources */,
+				97B7D3051DE277360069FD02 /* AppDelegate.swift in Sources */,
+				97B7D30D1DE277360069FD02 /* SatoriChallenge.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B7D3141DE277360069FD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B7D31D1DE277360069FD02 /* SatoriChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97B7D31F1DE277360069FD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B7D3281DE277360069FD02 /* SatoriChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97B7D31A1DE277360069FD02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97B7D3001DE277360069FD02 /* SatoriChallenge */;
+			targetProxy = 97B7D3191DE277360069FD02 /* PBXContainerItemProxy */;
+		};
+		97B7D3251DE277360069FD02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97B7D3001DE277360069FD02 /* SatoriChallenge */;
+			targetProxy = 97B7D3241DE277360069FD02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97B7D3081DE277360069FD02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97B7D3091DE277360069FD02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97B7D3101DE277360069FD02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97B7D3111DE277360069FD02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97B7D32A1DE277360069FD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97B7D32B1DE277360069FD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97B7D32D1DE277360069FD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8DM6D8QKC8;
+				INFOPLIST_FILE = SatoriChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovars.ios.SatoriChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		97B7D32E1DE277360069FD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8DM6D8QKC8;
+				INFOPLIST_FILE = SatoriChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovars.ios.SatoriChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		97B7D3301DE277360069FD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8DM6D8QKC8;
+				INFOPLIST_FILE = SatoriChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovars.ios.SatoriChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SatoriChallenge.app/SatoriChallenge";
+			};
+			name = Debug;
+		};
+		97B7D3311DE277360069FD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8DM6D8QKC8;
+				INFOPLIST_FILE = SatoriChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovars.ios.SatoriChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SatoriChallenge.app/SatoriChallenge";
+			};
+			name = Release;
+		};
+		97B7D3331DE277360069FD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8DM6D8QKC8;
+				INFOPLIST_FILE = SatoriChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovars.ios.SatoriChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SatoriChallenge;
+			};
+			name = Debug;
+		};
+		97B7D3341DE277360069FD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8DM6D8QKC8;
+				INFOPLIST_FILE = SatoriChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kovars.ios.SatoriChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SatoriChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97B7D2FC1DE277360069FD02 /* Build configuration list for PBXProject "SatoriChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B7D32A1DE277360069FD02 /* Debug */,
+				97B7D32B1DE277360069FD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97B7D32C1DE277360069FD02 /* Build configuration list for PBXNativeTarget "SatoriChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B7D32D1DE277360069FD02 /* Debug */,
+				97B7D32E1DE277360069FD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97B7D32F1DE277360069FD02 /* Build configuration list for PBXNativeTarget "SatoriChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B7D3301DE277360069FD02 /* Debug */,
+				97B7D3311DE277360069FD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97B7D3321DE277360069FD02 /* Build configuration list for PBXNativeTarget "SatoriChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B7D3331DE277360069FD02 /* Debug */,
+				97B7D3341DE277360069FD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97B7D30B1DE277360069FD02 /* SatoriChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97B7D30C1DE277360069FD02 /* SatoriChallenge.xcdatamodel */,
+			);
+			currentVersion = 97B7D30C1DE277360069FD02 /* SatoriChallenge.xcdatamodel */;
+			path = SatoriChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 97B7D2F91DE277360069FD02 /* Project object */;
+}
