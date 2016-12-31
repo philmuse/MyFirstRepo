@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DAC2900C654240272FCD160CFD8C50FAE0AE6FD4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DAC2900C654240272FCD160CFD8C50FAE0AE6FD4" : 9223372036854775807,
+    "341BD1B40E9F29ECC01D67E748FAB5FA14696CC0" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0862DC27-9685-4897-8221-8D741E81B54B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DAC2900C654240272FCD160CFD8C50FAE0AE6FD4" : "MyFirstGitHubRepo\/",
+    "341BD1B40E9F29ECC01D67E748FAB5FA14696CC0" : "MyFirstGitHubRepo\/SatoriChallenge\/Gloss\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SatoriChallenge",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SatoriChallenge\/SatoriChallenge.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hkellaway\/Gloss.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "341BD1B40E9F29ECC01D67E748FAB5FA14696CC0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/philmuse\/MyFirstRepo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DAC2900C654240272FCD160CFD8C50FAE0AE6FD4"
+    }
+  ]
+}

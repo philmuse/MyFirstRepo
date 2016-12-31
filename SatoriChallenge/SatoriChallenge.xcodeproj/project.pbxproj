@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9715CE4C1E0993C200C2F490 /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9715CE4B1E0993C200C2F490 /* SettingsTVC.swift */; };
+		971E0D921DE414FF0042073C /* TabMainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E0D911DE414FF0042073C /* TabMainPageVC.swift */; };
+		971E0D941DE416070042073C /* TabBarCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E0D931DE416070042073C /* TabBarCollectionVC.swift */; };
+		971E0D971DE417150042073C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971E0D951DE417150042073C /* Main.storyboard */; };
+		971E0D991DE4184E0042073C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971E0D981DE4184E0042073C /* Home.storyboard */; };
+		971E0D9B1DE418630042073C /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971E0D9A1DE418630042073C /* Settings.storyboard */; };
+		971E0D9D1DE418840042073C /* Workouts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971E0D9C1DE418840042073C /* Workouts.storyboard */; };
+		975C9F2D1DE8D32C00FE84C2 /* WorkoutCourseListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C9F2C1DE8D32C00FE84C2 /* WorkoutCourseListVC.swift */; };
+		975C9F2F1DE96D6600FE84C2 /* WorkoutCourseListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C9F2E1DE96D6600FE84C2 /* WorkoutCourseListTVC.swift */; };
+		975C9F311DEA5CAC00FE84C2 /* WorkoutCourseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975C9F301DEA5CAC00FE84C2 /* WorkoutCourseVC.swift */; };
 		97B7D3051DE277360069FD02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B7D3041DE277360069FD02 /* AppDelegate.swift */; };
 		97B7D3071DE277360069FD02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B7D3061DE277360069FD02 /* ViewController.swift */; };
-		97B7D30A1DE277360069FD02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B7D3081DE277360069FD02 /* Main.storyboard */; };
 		97B7D30D1DE277360069FD02 /* SatoriChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97B7D30B1DE277360069FD02 /* SatoriChallenge.xcdatamodeld */; };
 		97B7D30F1DE277360069FD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B7D30E1DE277360069FD02 /* Assets.xcassets */; };
 		97B7D3121DE277360069FD02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B7D3101DE277360069FD02 /* LaunchScreen.storyboard */; };
 		97B7D31D1DE277360069FD02 /* SatoriChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B7D31C1DE277360069FD02 /* SatoriChallengeTests.swift */; };
 		97B7D3281DE277360069FD02 /* SatoriChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B7D3271DE277360069FD02 /* SatoriChallengeUITests.swift */; };
+		97CFD0961DFE1AE900E86FBD /* CourseData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97CFD0951DFE1AE900E86FBD /* CourseData.plist */; };
+		97CFD0981DFE1B3C00E86FBD /* CourseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CFD0971DFE1B3C00E86FBD /* CourseData.swift */; };
+		97CFD0CE1DFF45B300E86FBD /* Gloss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97CFD0C51DFF45A600E86FBD /* Gloss.framework */; };
+		97CFD0CF1DFF45B300E86FBD /* Gloss.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 97CFD0C51DFF45A600E86FBD /* Gloss.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +45,78 @@
 			remoteGlobalIDString = 97B7D3001DE277360069FD02;
 			remoteInfo = SatoriChallenge;
 		};
+		97CFD0C41DFF45A600E86FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CFD0BC1DFF45A600E86FBD /* Gloss.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC39BF611B8A7AD200088CE0;
+			remoteInfo = Gloss;
+		};
+		97CFD0C61DFF45A600E86FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CFD0BC1DFF45A600E86FBD /* Gloss.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCF3008A1BDCA3FF003FBF15;
+			remoteInfo = "Gloss MacOS";
+		};
+		97CFD0C81DFF45A600E86FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CFD0BC1DFF45A600E86FBD /* Gloss.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A04168E71C0DF69900269A6A;
+			remoteInfo = "Gloss tvOS";
+		};
+		97CFD0CA1DFF45A600E86FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CFD0BC1DFF45A600E86FBD /* Gloss.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC683ADB1C2C615D0035EAC3;
+			remoteInfo = "Gloss watchOS";
+		};
+		97CFD0CC1DFF45A600E86FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CFD0BC1DFF45A600E86FBD /* Gloss.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2FA4CE9A1C947E3000EB8AB8;
+			remoteInfo = GlossTests;
+		};
+		97CFD0D01DFF45B300E86FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97CFD0BC1DFF45A600E86FBD /* Gloss.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DC39BF601B8A7AD200088CE0;
+			remoteInfo = Gloss;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		97CFD0D21DFF45B300E86FBD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				97CFD0CF1DFF45B300E86FBD /* Gloss.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9715CE4B1E0993C200C2F490 /* SettingsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsTVC.swift; path = UI/ViewControllers/SettingsTVC.swift; sourceTree = "<group>"; };
+		971E0D911DE414FF0042073C /* TabMainPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabMainPageVC.swift; path = UI/ViewControllers/TabMainPageVC.swift; sourceTree = "<group>"; };
+		971E0D931DE416070042073C /* TabBarCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarCollectionVC.swift; path = UI/ViewControllers/TabBarCollectionVC.swift; sourceTree = "<group>"; };
+		971E0D961DE417150042073C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		971E0D981DE4184E0042073C /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = UI/Storyboards/Home.storyboard; sourceTree = "<group>"; };
+		971E0D9A1DE418630042073C /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Settings.storyboard; path = UI/Storyboards/Settings.storyboard; sourceTree = "<group>"; };
+		971E0D9C1DE418840042073C /* Workouts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Workouts.storyboard; path = UI/Storyboards/Workouts.storyboard; sourceTree = "<group>"; };
+		975C9F2C1DE8D32C00FE84C2 /* WorkoutCourseListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutCourseListVC.swift; path = UI/ViewControllers/WorkoutCourseListVC.swift; sourceTree = "<group>"; };
+		975C9F2E1DE96D6600FE84C2 /* WorkoutCourseListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutCourseListTVC.swift; path = UI/ViewControllers/WorkoutCourseListTVC.swift; sourceTree = "<group>"; };
+		975C9F301DEA5CAC00FE84C2 /* WorkoutCourseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutCourseVC.swift; path = UI/ViewControllers/WorkoutCourseVC.swift; sourceTree = "<group>"; };
 		97B7D3011DE277360069FD02 /* SatoriChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatoriChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B7D3041DE277360069FD02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97B7D3061DE277360069FD02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		97B7D3091DE277360069FD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97B7D30C1DE277360069FD02 /* SatoriChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SatoriChallenge.xcdatamodel; sourceTree = "<group>"; };
 		97B7D30E1DE277360069FD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97B7D3111DE277360069FD02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +127,10 @@
 		97B7D3231DE277360069FD02 /* SatoriChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatoriChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97B7D3271DE277360069FD02 /* SatoriChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatoriChallengeUITests.swift; sourceTree = "<group>"; };
 		97B7D3291DE277360069FD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97CFD0951DFE1AE900E86FBD /* CourseData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CourseData.plist; sourceTree = "<group>"; };
+		97CFD0971DFE1B3C00E86FBD /* CourseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseData.swift; sourceTree = "<group>"; };
+		97CFD09A1DFE1C6500E86FBD /* Gloss.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gloss.framework; path = "Gloss-master/build/Debug-iphoneos/Gloss.framework"; sourceTree = "<group>"; };
+		97CFD0BC1DFF45A600E86FBD /* Gloss.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Gloss.xcodeproj; path = Gloss/Gloss.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CFD0CE1DFF45B300E86FBD /* Gloss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +159,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		971E0D8E1DE414AA0042073C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				971E0D901DE414BE0042073C /* ViewControllers */,
+				971E0D8F1DE414B00042073C /* Storyboards */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		971E0D8F1DE414B00042073C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				971E0D981DE4184E0042073C /* Home.storyboard */,
+				97B7D3101DE277360069FD02 /* LaunchScreen.storyboard */,
+				971E0D951DE417150042073C /* Main.storyboard */,
+				971E0D9A1DE418630042073C /* Settings.storyboard */,
+				971E0D9C1DE418840042073C /* Workouts.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		971E0D901DE414BE0042073C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9715CE4B1E0993C200C2F490 /* SettingsTVC.swift */,
+				971E0D911DE414FF0042073C /* TabMainPageVC.swift */,
+				971E0D931DE416070042073C /* TabBarCollectionVC.swift */,
+				975C9F2E1DE96D6600FE84C2 /* WorkoutCourseListTVC.swift */,
+				975C9F2C1DE8D32C00FE84C2 /* WorkoutCourseListVC.swift */,
+				975C9F301DEA5CAC00FE84C2 /* WorkoutCourseVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		97B7D2F81DE277360069FD02 = {
 			isa = PBXGroup;
 			children = (
+				97CFD0BC1DFF45A600E86FBD /* Gloss.xcodeproj */,
 				97B7D3031DE277360069FD02 /* SatoriChallenge */,
 				97B7D31B1DE277360069FD02 /* SatoriChallengeTests */,
 				97B7D3261DE277360069FD02 /* SatoriChallengeUITests */,
 				97B7D3021DE277360069FD02 /* Products */,
+				97CFD0991DFE1C6500E86FBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +218,14 @@
 		97B7D3031DE277360069FD02 /* SatoriChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				971E0D8E1DE414AA0042073C /* UI */,
 				97B7D3041DE277360069FD02 /* AppDelegate.swift */,
 				97B7D3061DE277360069FD02 /* ViewController.swift */,
-				97B7D3081DE277360069FD02 /* Main.storyboard */,
 				97B7D30E1DE277360069FD02 /* Assets.xcassets */,
-				97B7D3101DE277360069FD02 /* LaunchScreen.storyboard */,
 				97B7D3131DE277360069FD02 /* Info.plist */,
 				97B7D30B1DE277360069FD02 /* SatoriChallenge.xcdatamodeld */,
+				97CFD0951DFE1AE900E86FBD /* CourseData.plist */,
+				97CFD0971DFE1B3C00E86FBD /* CourseData.swift */,
 			);
 			path = SatoriChallenge;
 			sourceTree = "<group>";
@@ -128,6 +248,26 @@
 			path = SatoriChallengeUITests;
 			sourceTree = "<group>";
 		};
+		97CFD0991DFE1C6500E86FBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97CFD09A1DFE1C6500E86FBD /* Gloss.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97CFD0BD1DFF45A600E86FBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97CFD0C51DFF45A600E86FBD /* Gloss.framework */,
+				97CFD0C71DFF45A600E86FBD /* Gloss.framework */,
+				97CFD0C91DFF45A600E86FBD /* Gloss.framework */,
+				97CFD0CB1DFF45A600E86FBD /* Gloss.framework */,
+				97CFD0CD1DFF45A600E86FBD /* GlossTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +278,12 @@
 				97B7D2FD1DE277360069FD02 /* Sources */,
 				97B7D2FE1DE277360069FD02 /* Frameworks */,
 				97B7D2FF1DE277360069FD02 /* Resources */,
+				97CFD0D21DFF45B300E86FBD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				97CFD0D11DFF45B300E86FBD /* PBXTargetDependency */,
 			);
 			name = SatoriChallenge;
 			productName = SatoriChallenge;
@@ -223,6 +365,12 @@
 			mainGroup = 97B7D2F81DE277360069FD02;
 			productRefGroup = 97B7D3021DE277360069FD02 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 97CFD0BD1DFF45A600E86FBD /* Products */;
+					ProjectRef = 97CFD0BC1DFF45A600E86FBD /* Gloss.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				97B7D3001DE277360069FD02 /* SatoriChallenge */,
@@ -232,14 +380,56 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		97CFD0C51DFF45A600E86FBD /* Gloss.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Gloss.framework;
+			remoteRef = 97CFD0C41DFF45A600E86FBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97CFD0C71DFF45A600E86FBD /* Gloss.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Gloss.framework;
+			remoteRef = 97CFD0C61DFF45A600E86FBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97CFD0C91DFF45A600E86FBD /* Gloss.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Gloss.framework;
+			remoteRef = 97CFD0C81DFF45A600E86FBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97CFD0CB1DFF45A600E86FBD /* Gloss.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Gloss.framework;
+			remoteRef = 97CFD0CA1DFF45A600E86FBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		97CFD0CD1DFF45A600E86FBD /* GlossTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GlossTests.xctest;
+			remoteRef = 97CFD0CC1DFF45A600E86FBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		97B7D2FF1DE277360069FD02 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971E0D971DE417150042073C /* Main.storyboard in Resources */,
+				97CFD0961DFE1AE900E86FBD /* CourseData.plist in Resources */,
 				97B7D3121DE277360069FD02 /* LaunchScreen.storyboard in Resources */,
+				971E0D9D1DE418840042073C /* Workouts.storyboard in Resources */,
 				97B7D30F1DE277360069FD02 /* Assets.xcassets in Resources */,
-				97B7D30A1DE277360069FD02 /* Main.storyboard in Resources */,
+				971E0D991DE4184E0042073C /* Home.storyboard in Resources */,
+				971E0D9B1DE418630042073C /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +454,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971E0D921DE414FF0042073C /* TabMainPageVC.swift in Sources */,
+				975C9F2F1DE96D6600FE84C2 /* WorkoutCourseListTVC.swift in Sources */,
 				97B7D3071DE277360069FD02 /* ViewController.swift in Sources */,
+				971E0D941DE416070042073C /* TabBarCollectionVC.swift in Sources */,
 				97B7D3051DE277360069FD02 /* AppDelegate.swift in Sources */,
+				9715CE4C1E0993C200C2F490 /* SettingsTVC.swift in Sources */,
+				975C9F311DEA5CAC00FE84C2 /* WorkoutCourseVC.swift in Sources */,
 				97B7D30D1DE277360069FD02 /* SatoriChallenge.xcdatamodeld in Sources */,
+				975C9F2D1DE8D32C00FE84C2 /* WorkoutCourseListVC.swift in Sources */,
+				97CFD0981DFE1B3C00E86FBD /* CourseData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,13 +496,18 @@
 			target = 97B7D3001DE277360069FD02 /* SatoriChallenge */;
 			targetProxy = 97B7D3241DE277360069FD02 /* PBXContainerItemProxy */;
 		};
+		97CFD0D11DFF45B300E86FBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gloss;
+			targetProxy = 97CFD0D01DFF45B300E86FBD /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		97B7D3081DE277360069FD02 /* Main.storyboard */ = {
+		971E0D951DE417150042073C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				97B7D3091DE277360069FD02 /* Base */,
+				971E0D961DE417150042073C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -339,6 +541,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -389,6 +592,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -417,9 +621,14 @@
 		97B7D32D1DE277360069FD02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 8DM6D8QKC8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gloss-master/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SatoriChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kovars.ios.SatoriChallenge;
@@ -431,9 +640,14 @@
 		97B7D32E1DE277360069FD02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 8DM6D8QKC8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gloss-master/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SatoriChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kovars.ios.SatoriChallenge;
@@ -519,6 +733,7 @@
 				97B7D32E1DE277360069FD02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97B7D32F1DE277360069FD02 /* Build configuration list for PBXNativeTarget "SatoriChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +742,7 @@
 				97B7D3311DE277360069FD02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97B7D3321DE277360069FD02 /* Build configuration list for PBXNativeTarget "SatoriChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +751,7 @@
 				97B7D3341DE277360069FD02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CourseList</key>
+	<array>
+		<dict>
+			<key>Monday</key>
+			<array>
+				<string>warmup.mov</string>
+				<string>jumpsquat.mov</string>
+			</array>
+			<key>Tuesday</key>
+			<array>
+				<string>warmup.mov</string>
+				<string>pistonpushups.mov</string>
+			</array>
+			<key>Wednesday</key>
+			<array/>
+			<key>Thursday</key>
+			<array/>
+			<key>Friday</key>
+			<array/>
+		</dict>
+	</array>
+	<key>New item</key>
+	<string></string>
+</dict>
+</plist>
